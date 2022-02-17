@@ -1,0 +1,286 @@
+##########################################################################
+#
+# Application : compile_simlib (2019.2)
+# File name   : compile_simlib.log
+#
+# #########################################################################
+INFO: [Vivado 12-5496] Finding simulator executables and checking version...
+INFO: [Vivado 12-5502] Using modelsim simulator tools from 'E:\SoftWare\Program\modelsim2019.2\win64'
+INFO: [Vivado 12-5498] Processing source library information for the selected device family (default:all) ...
+
+Compiling libraries for 'modelsim' simulator in 'E:/SoftWare/Program/modelsim2019.2/vivadoLib'
+INFO: [Vivado 12-5546] Library 'verilog.secureip' is stale and will be recompiled.
+** Warning: (vlib-34) Library already exists at "E:/SoftWare/Program/modelsim2019.2/vivadoLib/secureip".
+
+--> Compiling 'verilog.secureip' library...
+    > Source Library = 'E:\SoftWare\Program\vivado201902\Vivado\2019.2\data/secureip'
+    > Compiled Path  = 'E:\SoftWare\Program\modelsim2019.2\vivadoLib\secureip'
+
+==============================================================================
+BEGIN_COMPILATION_MESSAGES(modelsim:verilog:secureip)
+** Warning: (vlog-159) Mode option -64 is not supported in this context and will be ignored.
+Model Technology ModelSim SE-64 vlog 2019.2 Compiler 2019.04 Apr 17 2019
+** Error (suppressible): (vlog-12110) All optimizations are disabled because the -novopt option is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features, please see the User's Manual section on Preserving Object Visibility with vopt. -novopt option is now deprecated and will be removed in future releases.
+Errors: 1, Warnings: 1
+
+END_COMPILATION_MESSAGES(modelsim:verilog:secureip)
+==============================================================================
+
+    > Log File       = 'E:/SoftWare/Program/modelsim2019.2/vivadoLib/secureip/.cxl.verilog.secureip.secureip.nt64.log'
+
+compile_simlib[verilog.secureip]: 2 error(s), 1 warning(s), 12.50 % complete
+Please refer to the messages between 'BEGIN_COMPILATION_MESSAGES(modelsim:verilog:secureip)' and 'END_COMPILATION_MESSAGES(modelsim:verilog:secureip)' in the log file compile_simlib.log for details of compilation error(s).
+
+INFO: [Vivado 12-5546] Library 'vhdl.unisim' is stale and will be recompiled.
+** Warning: (vlib-34) Library already exists at "E:/SoftWare/Program/modelsim2019.2/vivadoLib/unisim".
+
+--> Compiling 'vhdl.unisim' library...
+    > Source Library = 'E:\SoftWare\Program\vivado201902\Vivado\2019.2\data/vhdl/src/unisims'
+    > Compiled Path  = 'E:\SoftWare\Program\modelsim2019.2\vivadoLib\unisim'
+
+==============================================================================
+BEGIN_COMPILATION_MESSAGES(modelsim:vhdl:unisim)
+** Warning: (vcom-159) Mode option -64 is not supported in this context and will be ignored.
+Model Technology ModelSim SE-64 vcom 2019.2 Compiler 2019.04 Apr 17 2019
+** Error (suppressible): (vcom-12110) All optimizations are disabled because the -novopt option is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features, please see the User's Manual section on Preserving Object Visibility with vopt. -novopt option is now deprecated and will be removed in future releases.
+Errors: 1, Warnings: 1
+
+END_COMPILATION_MESSAGES(modelsim:vhdl:unisim)
+==============================================================================
+
+    > Log File       = 'E:/SoftWare/Program/modelsim2019.2/vivadoLib/unisim/.cxl.vhdl.unisim.unisim.nt64.log'
+INFO: [Vivado 12-5546] Library 'vhdl.unisim:vhdl.unimacro' is stale and will be recompiled.
+** Warning: (vlib-34) Library already exists at "E:/SoftWare/Program/modelsim2019.2/vivadoLib/unimacro".
+
+--> Compiling 'vhdl.unisim:vhdl.unimacro' library...
+    > Source Library = 'E:\SoftWare\Program\vivado201902\Vivado\2019.2\data/vhdl/src/unimacro'
+    > Compiled Path  = 'E:\SoftWare\Program\modelsim2019.2\vivadoLib\unimacro'
+
+==============================================================================
+BEGIN_COMPILATION_MESSAGES(modelsim:vhdl:unimacro)
+** Warning: (vcom-159) Mode option -64 is not supported in this context and will be ignored.
+Model Technology ModelSim SE-64 vcom 2019.2 Compiler 2019.04 Apr 17 2019
+** Error (suppressible): (vcom-12110) All optimizations are disabled because the -novopt option is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features, please see the User's Manual section on Preserving Object Visibility with vopt. -novopt option is now deprecated and will be removed in future releases.
+Errors: 1, Warnings: 1
+
+END_COMPILATION_MESSAGES(modelsim:vhdl:unimacro)
+==============================================================================
+
+    > Log File       = 'E:/SoftWare/Program/modelsim2019.2/vivadoLib/unimacro/.cxl.vhdl.unimacro.unimacro.nt64.log'
+compile_simlib[vhdl.unisim:vhdl.unimacro]: 1 error(s), 1 warning(s)
+INFO: Please refer to the messages between 'BEGIN_COMPILATION_MESSAGES(modelsim:vhdl:unimacro)' and 'END_COMPILATION_MESSAGES(modelsim:vhdl:unimacro)' in the log file compile_simlib.log for details of compilation error(s).
+
+INFO: [Vivado 12-5546] Library 'vhdl.unisim:vhdl.unifast' is stale and will be recompiled.
+** Warning: (vlib-34) Library already exists at "E:/SoftWare/Program/modelsim2019.2/vivadoLib/unifast".
+
+--> Compiling 'vhdl.unisim:vhdl.unifast' library...
+    > Source Library = 'E:\SoftWare\Program\vivado201902\Vivado\2019.2\data/vhdl/src/unifast'
+    > Compiled Path  = 'E:\SoftWare\Program\modelsim2019.2\vivadoLib\unifast'
+
+==============================================================================
+BEGIN_COMPILATION_MESSAGES(modelsim:vhdl:unifast)
+** Warning: (vcom-159) Mode option -64 is not supported in this context and will be ignored.
+Model Technology ModelSim SE-64 vcom 2019.2 Compiler 2019.04 Apr 17 2019
+** Error (suppressible): (vcom-12110) All optimizations are disabled because the -novopt option is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features, please see the User's Manual section on Preserving Object Visibility with vopt. -novopt option is now deprecated and will be removed in future releases.
+Errors: 1, Warnings: 1
+
+END_COMPILATION_MESSAGES(modelsim:vhdl:unifast)
+==============================================================================
+
+    > Log File       = 'E:/SoftWare/Program/modelsim2019.2/vivadoLib/unifast/.cxl.vhdl.unifast.unifast.nt64.log'
+compile_simlib[vhdl.unisim:vhdl.unifast]: 1 error(s), 1 warning(s)
+INFO: Please refer to the messages between 'BEGIN_COMPILATION_MESSAGES(modelsim:vhdl:unifast)' and 'END_COMPILATION_MESSAGES(modelsim:vhdl:unifast)' in the log file compile_simlib.log for details of compilation error(s).
+
+
+compile_simlib[vhdl.unisim]: 3 error(s), 3 warning(s), 37.50 % complete
+Please refer to the messages between 'BEGIN_COMPILATION_MESSAGES(modelsim:vhdl:unisim)' and 'END_COMPILATION_MESSAGES(modelsim:vhdl:unisim)' in the log file compile_simlib.log for details of compilation error(s).
+
+INFO: [Vivado 12-5546] Library 'verilog.unisim' is stale and will be recompiled.
+** Warning: (vlib-34) Library already exists at "E:/SoftWare/Program/modelsim2019.2/vivadoLib/unisims_ver".
+
+--> Compiling 'verilog.unisim' library...
+    > Source Library = 'E:\SoftWare\Program\vivado201902\Vivado\2019.2\data/verilog/src'
+    > Compiled Path  = 'E:\SoftWare\Program\modelsim2019.2\vivadoLib\unisims_ver'
+
+==============================================================================
+BEGIN_COMPILATION_MESSAGES(modelsim:verilog:unisim)
+** Warning: (vlog-159) Mode option -64 is not supported in this context and will be ignored.
+Model Technology ModelSim SE-64 vlog 2019.2 Compiler 2019.04 Apr 17 2019
+** Error (suppressible): (vlog-12110) All optimizations are disabled because the -novopt option is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features, please see the User's Manual section on Preserving Object Visibility with vopt. -novopt option is now deprecated and will be removed in future releases.
+Errors: 1, Warnings: 1
+
+END_COMPILATION_MESSAGES(modelsim:verilog:unisim)
+==============================================================================
+
+    > Log File       = 'E:/SoftWare/Program/modelsim2019.2/vivadoLib/unisims_ver/.cxl.verilog.unisim.unisims_ver.nt64.log'
+INFO: [Vivado 12-5546] Library 'verilog.unisim:verilog.unimacro' is stale and will be recompiled.
+** Warning: (vlib-34) Library already exists at "E:/SoftWare/Program/modelsim2019.2/vivadoLib/unimacro_ver".
+
+--> Compiling 'verilog.unisim:verilog.unimacro' library...
+    > Source Library = 'E:\SoftWare\Program\vivado201902\Vivado\2019.2\data/verilog/src/unimacro'
+    > Compiled Path  = 'E:\SoftWare\Program\modelsim2019.2\vivadoLib\unimacro_ver'
+
+==============================================================================
+BEGIN_COMPILATION_MESSAGES(modelsim:verilog:unimacro)
+** Warning: (vlog-159) Mode option -64 is not supported in this context and will be ignored.
+Model Technology ModelSim SE-64 vlog 2019.2 Compiler 2019.04 Apr 17 2019
+** Error (suppressible): (vlog-12110) All optimizations are disabled because the -novopt option is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features, please see the User's Manual section on Preserving Object Visibility with vopt. -novopt option is now deprecated and will be removed in future releases.
+Errors: 1, Warnings: 1
+
+END_COMPILATION_MESSAGES(modelsim:verilog:unimacro)
+==============================================================================
+
+    > Log File       = 'E:/SoftWare/Program/modelsim2019.2/vivadoLib/unimacro_ver/.cxl.verilog.unimacro.unimacro_ver.nt64.log'
+compile_simlib[verilog.unisim:verilog.unimacro]: 1 error(s), 1 warning(s)
+INFO: Please refer to the messages between 'BEGIN_COMPILATION_MESSAGES(modelsim:verilog:unimacro)' and 'END_COMPILATION_MESSAGES(modelsim:verilog:unimacro)' in the log file compile_simlib.log for details of compilation error(s).
+
+INFO: [Vivado 12-5546] Library 'verilog.unisim:verilog.unifast' is stale and will be recompiled.
+** Warning: (vlib-34) Library already exists at "E:/SoftWare/Program/modelsim2019.2/vivadoLib/unifast_ver".
+
+--> Compiling 'verilog.unisim:verilog.unifast' library...
+    > Source Library = 'E:\SoftWare\Program\vivado201902\Vivado\2019.2\data/verilog/src/unifast'
+    > Compiled Path  = 'E:\SoftWare\Program\modelsim2019.2\vivadoLib\unifast_ver'
+
+==============================================================================
+BEGIN_COMPILATION_MESSAGES(modelsim:verilog:unifast)
+** Warning: (vlog-159) Mode option -64 is not supported in this context and will be ignored.
+Model Technology ModelSim SE-64 vlog 2019.2 Compiler 2019.04 Apr 17 2019
+** Error (suppressible): (vlog-12110) All optimizations are disabled because the -novopt option is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features, please see the User's Manual section on Preserving Object Visibility with vopt. -novopt option is now deprecated and will be removed in future releases.
+Errors: 1, Warnings: 1
+
+END_COMPILATION_MESSAGES(modelsim:verilog:unifast)
+==============================================================================
+
+    > Log File       = 'E:/SoftWare/Program/modelsim2019.2/vivadoLib/unifast_ver/.cxl.verilog.unifast.unifast_ver.nt64.log'
+compile_simlib[verilog.unisim:verilog.unifast]: 1 error(s), 1 warning(s)
+INFO: Please refer to the messages between 'BEGIN_COMPILATION_MESSAGES(modelsim:verilog:unifast)' and 'END_COMPILATION_MESSAGES(modelsim:verilog:unifast)' in the log file compile_simlib.log for details of compilation error(s).
+
+
+compile_simlib[verilog.unisim]: 4 error(s), 3 warning(s), 50.00 % complete
+Please refer to the messages between 'BEGIN_COMPILATION_MESSAGES(modelsim:verilog:unisim)' and 'END_COMPILATION_MESSAGES(modelsim:verilog:unisim)' in the log file compile_simlib.log for details of compilation error(s).
+
+INFO: [Vivado 12-5546] Library 'verilog.simprim' is stale and will be recompiled.
+** Warning: (vlib-34) Library already exists at "E:/SoftWare/Program/modelsim2019.2/vivadoLib/simprims_ver".
+
+--> Compiling 'verilog.simprim' library...
+    > Source Library = 'E:\SoftWare\Program\vivado201902\Vivado\2019.2\data/verilog/src/unisims'
+    > Compiled Path  = 'E:\SoftWare\Program\modelsim2019.2\vivadoLib\simprims_ver'
+
+==============================================================================
+BEGIN_COMPILATION_MESSAGES(modelsim:verilog:simprim)
+** Warning: (vlog-159) Mode option -64 is not supported in this context and will be ignored.
+Model Technology ModelSim SE-64 vlog 2019.2 Compiler 2019.04 Apr 17 2019
+** Error (suppressible): (vlog-12110) All optimizations are disabled because the -novopt option is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features, please see the User's Manual section on Preserving Object Visibility with vopt. -novopt option is now deprecated and will be removed in future releases.
+Errors: 1, Warnings: 1
+
+END_COMPILATION_MESSAGES(modelsim:verilog:simprim)
+==============================================================================
+
+    > Log File       = 'E:/SoftWare/Program/modelsim2019.2/vivadoLib/simprims_ver/.cxl.verilog.simprim.simprims_ver.nt64.log'
+
+compile_simlib[verilog.simprim]: 2 error(s), 1 warning(s), 62.50 % complete
+Please refer to the messages between 'BEGIN_COMPILATION_MESSAGES(modelsim:verilog:simprim)' and 'END_COMPILATION_MESSAGES(modelsim:verilog:simprim)' in the log file compile_simlib.log for details of compilation error(s).
+
+INFO: [Vivado 12-5546] Library 'vhdl.xpm' is stale and will be recompiled.
+** Warning: (vlib-34) Library already exists at "E:/SoftWare/Program/modelsim2019.2/vivadoLib/xpm".
+
+--> Compiling 'vhdl.xpm' library...
+    > Source Library = 'E:\SoftWare\Program\vivado201902\Vivado\2019.2\data/ip/xpm'
+    > Compiled Path  = 'E:\SoftWare\Program\modelsim2019.2\vivadoLib\xpm'
+
+==============================================================================
+BEGIN_COMPILATION_MESSAGES(modelsim:vhdl:xpm)
+** Warning: (vcom-159) Mode option -64 is not supported in this context and will be ignored.
+Model Technology ModelSim SE-64 vcom 2019.2 Compiler 2019.04 Apr 17 2019
+** Error (suppressible): (vcom-12110) All optimizations are disabled because the -novopt option is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features, please see the User's Manual section on Preserving Object Visibility with vopt. -novopt option is now deprecated and will be removed in future releases.
+Errors: 1, Warnings: 1
+
+END_COMPILATION_MESSAGES(modelsim:vhdl:xpm)
+==============================================================================
+
+    > Log File       = 'E:/SoftWare/Program/modelsim2019.2/vivadoLib/xpm/.cxl.vhdl.xpm.xpm.nt64.log'
+
+compile_simlib[vhdl.xpm]: 1 error(s), 1 warning(s), 75.00 % complete
+Please refer to the messages between 'BEGIN_COMPILATION_MESSAGES(modelsim:vhdl:xpm)' and 'END_COMPILATION_MESSAGES(modelsim:vhdl:xpm)' in the log file compile_simlib.log for details of compilation error(s).
+
+INFO: [Vivado 12-5546] Library 'verilog.xpm' is stale and will be recompiled.
+** Warning: (vlib-34) Library already exists at "E:/SoftWare/Program/modelsim2019.2/vivadoLib/xpm".
+
+--> Compiling 'verilog.xpm' library...
+    > Source Library = 'E:\SoftWare\Program\vivado201902\Vivado\2019.2\data/ip/xpm'
+    > Compiled Path  = 'E:\SoftWare\Program\modelsim2019.2\vivadoLib\xpm'
+
+==============================================================================
+BEGIN_COMPILATION_MESSAGES(modelsim:verilog:xpm)
+** Warning: (vlog-159) Mode option -64 is not supported in this context and will be ignored.
+Model Technology ModelSim SE-64 vlog 2019.2 Compiler 2019.04 Apr 17 2019
+** Error (suppressible): (vlog-12110) All optimizations are disabled because the -novopt option is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features, please see the User's Manual section on Preserving Object Visibility with vopt. -novopt option is now deprecated and will be removed in future releases.
+Errors: 1, Warnings: 1
+
+END_COMPILATION_MESSAGES(modelsim:verilog:xpm)
+==============================================================================
+
+    > Log File       = 'E:/SoftWare/Program/modelsim2019.2/vivadoLib/xpm/.cxl.verilog.xpm.xpm.nt64.log'
+
+compile_simlib[verilog.xpm]: 1 error(s), 1 warning(s), 87.50 % complete
+Please refer to the messages between 'BEGIN_COMPILATION_MESSAGES(modelsim:verilog:xpm)' and 'END_COMPILATION_MESSAGES(modelsim:verilog:xpm)' in the log file compile_simlib.log for details of compilation error(s).
+
+INFO: [Vivado 12-5546] Library 'verilog.xilinx_vip' is stale and will be recompiled.
+** Warning: (vlib-34) Library already exists at "E:/SoftWare/Program/modelsim2019.2/vivadoLib/xilinx_vip".
+
+--> Compiling 'verilog.xilinx_vip' library...
+    > Source Library = 'E:\SoftWare\Program\vivado201902\Vivado\2019.2\data'
+    > Compiled Path  = 'E:\SoftWare\Program\modelsim2019.2\vivadoLib\xilinx_vip'
+
+==============================================================================
+BEGIN_COMPILATION_MESSAGES(modelsim:verilog:xilinx_vip)
+** Warning: (vlog-159) Mode option -64 is not supported in this context and will be ignored.
+Model Technology ModelSim SE-64 vlog 2019.2 Compiler 2019.04 Apr 17 2019
+** Error (suppressible): (vlog-12110) All optimizations are disabled because the -novopt option is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features, please see the User's Manual section on Preserving Object Visibility with vopt. -novopt option is now deprecated and will be removed in future releases.
+Errors: 1, Warnings: 1
+
+END_COMPILATION_MESSAGES(modelsim:verilog:xilinx_vip)
+==============================================================================
+
+    > Log File       = 'E:/SoftWare/Program/modelsim2019.2/vivadoLib/xilinx_vip/.cxl.verilog.xilinx_vip.xilinx_vip.nt64.log'
+
+compile_simlib[verilog.xilinx_vip]: 1 error(s), 1 warning(s), 100.00 % complete
+Please refer to the messages between 'BEGIN_COMPILATION_MESSAGES(modelsim:verilog:xilinx_vip)' and 'END_COMPILATION_MESSAGES(modelsim:verilog:xilinx_vip)' in the log file compile_simlib.log for details of compilation error(s).
+
+Copying setup file 'modelsim.ini' to 'E:\SoftWare\Program\modelsim2019.2\vivadoLib/modelsim.ini' ...
+
+***********************************************************************************************************************
+*                                             COMPILATION SUMMARY                                                     *
+*                                                                                                                     *
+*  Simulator used: modelsim                                                                                           *
+*  Compiled on: Thu Feb 17 19:18:17 2022                                                                              *
+*                                                                                                                     *
+***********************************************************************************************************************
+*  Library                                | Language |          Mapped Library Name           | Error(s) | Warning(s) *
+*---------------------------------------------------------------------------------------------------------------------*
+*  secureip                               | verilog  | secureip                               | 2        | 1          *
+-----------------------------------------------------------------------------------------------------------------------
+*  unisim                                 | vhdl     | unisim                                 | 3        | 3          *
+-----------------------------------------------------------------------------------------------------------------------
+*  unimacro                               | vhdl     | unimacro                               | 1        | 1          *
+-----------------------------------------------------------------------------------------------------------------------
+*  unifast                                | vhdl     | unifast                                | 1        | 1          *
+-----------------------------------------------------------------------------------------------------------------------
+*  unisim                                 | verilog  | unisims_ver                            | 4        | 3          *
+-----------------------------------------------------------------------------------------------------------------------
+*  unimacro                               | verilog  | unimacro_ver                           | 1        | 1          *
+-----------------------------------------------------------------------------------------------------------------------
+*  unifast                                | verilog  | unifast_ver                            | 1        | 1          *
+-----------------------------------------------------------------------------------------------------------------------
+*  simprim                                | verilog  | simprims_ver                           | 2        | 1          *
+-----------------------------------------------------------------------------------------------------------------------
+*  xpm                                    | vhdl     | xpm                                    | 1        | 1          *
+-----------------------------------------------------------------------------------------------------------------------
+*  xpm                                    | verilog  | xpm                                    | 1        | 1          *
+-----------------------------------------------------------------------------------------------------------------------
+*  xilinx_vip                             | verilog  | xilinx_vip                             | 1        | 1          *
+-----------------------------------------------------------------------------------------------------------------------
+
+ERROR: [Vivado 12-5602] compile_simlib failed to compile for modelsim with error in 18 libraries (cxl_error.log)
+INFO: [Vivado 12-7167] Writing compiled library information...
+INFO: [Vivado 12-7165] Finished writing compiled library information.
